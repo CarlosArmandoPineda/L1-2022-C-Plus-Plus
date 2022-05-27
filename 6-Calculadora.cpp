@@ -10,6 +10,10 @@ int main(int argc, char** argv)
     int b = 0;
     int suma = 0, resta = 0, multiplicacion = 0, division = 0;
     
+    cout << " Programa para sumar,restar, multiplicar y dividir. " <<endl;
+    
+    cout << endl;
+    
     cout << " Ingrese el valor de a: ";
     cin >> a;
     
