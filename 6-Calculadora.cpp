@@ -32,8 +32,8 @@ int main(int argc, char** argv)
     cout << endl;
     cout <<" La suma de a + b es: " << suma <<endl;
     cout <<" La resta de a - b es: " << resta <<endl;
-    cout <<" La multiplicacion de a * b es: " << multiplicacion <<endl;
-    cout <<" La suma de a / b es: " << division <<endl;
+    cout <<" La multiplicación de a * b es: " << multiplicacion <<endl;
+    cout <<" La división de a / b es: " << division <<endl;
     
 
 
