@@ -65,11 +65,14 @@ int main(int argc, char** argv) {
 																       if ( nota >= 11 && nota <= 15 ) {
 																       	cout << " Obtuviste una F";
 																	   } else
-																	       if ( nota >= 1 && nota <= 5 ) {
-																	       	   cout << " Obtuviste una F-";
+																	       if ( nota >= 6 && nota <= 10 ) {
+																	       	   cout << " Obtuviste una F";
 																		   } else
-																		       if ( nota == 0 ) {
-																		       	   cout << " Obtuviste una F--";
+																	           if ( nota >= 1 && nota <= 5 ) {
+																	       	       cout << " Obtuviste una F-";
+																		       } else
+																		           if ( nota == 0 ) {
+																		       	       cout << " Obtuviste una F--";
 																			   } else {
 						                                                         	cout << " Ingrese una nota entre 0 -100 ";
 						                                                       }
