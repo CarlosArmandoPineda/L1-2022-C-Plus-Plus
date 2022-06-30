@@ -1,6 +1,6 @@
 [Project]
-FileName=modulacion.dev
-Name=modulacion
+FileName=tarea 6.dev
+Name=tarea 6
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=2
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -51,7 +51,27 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit2]
-FileName=calculadora.cpp
+FileName=menu.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=productos.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=factura.cpp
 CompileCpp=1
 Folder=
 Compile=1
