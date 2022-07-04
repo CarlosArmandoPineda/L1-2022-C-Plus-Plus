@@ -19,6 +19,7 @@ int opcionProducto = 0;
 		cout << "1 - Capuccino" <<endl;
 		cout << "2 - Expreso" <<endl;
 		cout << "3 - Latte de chocolate" <<endl;
+		cout << "0 - Salir" <<endl;
 	    
 	    cout << " Ingrese una opcion: ";
 		cin >> opcionProducto;
@@ -29,10 +30,10 @@ int opcionProducto = 0;
 			agregarProducto("Capuccino L.40.00", 1, 40);
 			break;
 		case 2:
-			agregarProducto("Expresso L-30.00", 1, 30);
+			agregarProducto("Expresso L.30.00", 1, 30);
 			break;
 		case 3:
-			agregarProducto("Latte de chocolate L-25.00", 1, 25);
+			agregarProducto("Latte de chocolate L.25.00", 1, 25);
 			break;
 				
 		default:
@@ -56,6 +57,7 @@ int opcionProducto = 0;
 		cout << "1 - Limonada" <<endl;
 		cout << "2 - Batido de fresa" <<endl;
 		cout << "3 - Te helado" <<endl;
+		cout << "0 - Salir" <<endl;
 	    
 	    cout << " Ingrese una opcion: ";
 		cin >> opcionProducto;
@@ -66,10 +68,10 @@ int opcionProducto = 0;
 			agregarProducto("Limonada L.15.00", 1, 15);
 			break;
 		case 2:
-			agregarProducto("Batido de fresa L-20.00", 1, 20);
+			agregarProducto("Batido de fresa L.20.00", 1, 20);
 			break;
 		case 3:
-			agregarProducto("Te helado L-25.00", 1, 25);
+			agregarProducto("Te helado L.25.00", 1, 25);
 			break;
 				
 		default:
@@ -93,6 +95,7 @@ int opcionProducto = 0;
 		cout << "1 - Pastel de chocolate" <<endl;
 		cout << "2 - Pastel de Limon" <<endl;
 		cout << "3 - Cupcakes" <<endl;
+		cout << "0 - Salir" <<endl;
 	    
 	    cout << " Ingrese una opcion: ";
 		cin >> opcionProducto;
@@ -103,10 +106,10 @@ int opcionProducto = 0;
 			agregarProducto("Pastel de chocolate L.150.00", 1, 150);
 			break;
 		case 2:
-			agregarProducto("Pastel de Limon L-100.00", 1, 100);
+			agregarProducto("Pastel de Limon L.100.00", 1, 100);
 			break;
 		case 3:
-			agregarProducto("Cupcakes L-30.00", 1, 30);
+			agregarProducto("Cupcakes L.30.00", 1, 30);
 			break;
 				
 		default:
