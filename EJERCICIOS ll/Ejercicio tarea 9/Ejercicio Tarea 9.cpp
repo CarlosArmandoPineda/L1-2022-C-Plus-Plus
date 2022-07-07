@@ -20,13 +20,12 @@ int main()
     system("pause");
 
     
-	for (int i=0;i<=1;i++)
-    {
+	
         srand (time (NULL));
         
         dado1=rand()%(6)+1;
         dado2=rand()%(6)+1; 
-    }
+    
     
     cout << "dado 1 es igual a: " << dado1 <<endl;
     cout << "dado 2 es igual a: " << dado2 <<endl;
