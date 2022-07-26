@@ -84,7 +84,7 @@ int main(int argc, char** argv)
 			ingresoDeInventario();
 			break;
 		
-		deafult:
+		default:
 			break;
 	    }
 	    

@@ -105,7 +105,7 @@ int main(int argc, char** argv)
 			salidaDeInventario();
 			break;
 		
-		deafult:
+		default:
 			break;
 	    }
 	    

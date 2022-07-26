@@ -31,7 +31,7 @@ int main(int argc, char** argv)
 			cout << "Escogiste 2";
 			break;
 		
-		deafult:
+		default:
 			break;
 	    }
 	    
