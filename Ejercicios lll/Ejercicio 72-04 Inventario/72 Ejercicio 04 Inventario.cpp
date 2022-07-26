@@ -29,9 +29,9 @@ void movimientoInventario(string codigo, int cantidad, string tipoMovimiento) {
 	{
 		if (productos[i][0] == codigo){
 			if (tipoMovimiento == "+"){
-				productos[1][2] = stoi(productos[i][2]) + cantidad;
+				productos[i][2] = stoi(productos[i][2]) + cantidad;
 			}else {
-				productos[1][2] = stoi(productos[i][2]) - cantidad;
+				productos[i][2] = stoi(productos[i][2]) - cantidad;
 			}
 		}
 	}
