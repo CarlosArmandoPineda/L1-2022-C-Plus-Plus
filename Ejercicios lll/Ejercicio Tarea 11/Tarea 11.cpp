@@ -42,7 +42,7 @@ int main(int argc, char** argv)
     }
     
     cout <<endl;
-    cout<< "La suma es : " << suma <<endl;
+    cout<< "Total Suma  : " << suma <<endl;
 	
 	return 0;
 }
