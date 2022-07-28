@@ -19,12 +19,14 @@ int main(int argc, char** argv)
 	int numero [5][5];
 	
 	for (int i = 0; i < 5; i++)
+	{
         
 		for (int j = 0; j < 5; j++)
         {
         	numero[i][j] = random();
         	suma = suma + numero[i][j];
         }
+    }
         
     cout <<"Suma con Arreglo Bidimensional ";
     cout <<endl;
