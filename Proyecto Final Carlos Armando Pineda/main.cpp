@@ -14,12 +14,12 @@ int main(int argc, char** argv) {
 	for(int i =0; i<=12; i++)
 	    cout << "\n";
 	cout <<"                                                 INGRESANDO A INNOVATECH"<<endl;
+	
 	for(int i =0; i<=119; i++)
 	{
 		cout<<char(219);
 		Sleep(segundos*1000/80);
 	}
-	cout <<"\n                                                       Bienvenido";
 	inicio();
 	
 	return 0;

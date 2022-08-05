@@ -13,27 +13,34 @@ void tienda(int elegir){
 	case 1: {
 	
 	system("cls");
-	cout <<"1 - DISPOSITIVOS ENTRE 20,000 Y 47,500 LEMPIRAS" <<endl;
-	cout <<"2 - DISPOSITIVOS ENTRE 15,000 Y 27,000 LEMPIRAS" <<endl;
-	cout <<"3 - DISPOSITIVOS ENTRE 3,000 Y 14,000 LEMPIRAS" <<endl;
-		
-	cout << "Ingrese una opcion:";
+	cout <<"                                                 --------------------"<<endl;
+	cout <<"                                                 DISPOSITIVOS MOBILES" <<endl;
+	cout <<"                                                 --------------------"<<endl;
+	cout <<endl;
+	cout <<"                                    1 - DISPOSITIVOS ENTRE 20,000 Y 47,500 LEMPIRAS" <<endl;
+	cout <<endl;
+	cout <<"                                    2 - DISPOSITIVOS ENTRE 15,000 Y 27,000 LEMPIRAS" <<endl;
+	cout <<endl;
+	cout <<"                                    3 - DISPOSITIVOS ENTRE 3,000 Y 14,000 LEMPIRAS" <<endl;
+	cout <<endl;	
+	cout << "                                       Ingrese una opcion basada en su presupuesto: ";
 	cin >> opcionProducto1;
 	
 	switch(opcionProducto1)
 	{
 	case 1: {
 	system("cls");	
-	cout << "DISPOSITIVOS ENTRE 20,000 Y 47,500 LEMPIRAS " <<endl;
+	cout << "                                         DISPOSITIVOS ENTRE 20,000 Y 47,500 LEMPIRAS " <<endl;
     cout << endl;
-	cout << "1 - Samsung S21 ULTRA, 8GB RAM, 256GB ROM, 31,412.00" <<endl;
-	cout << "2 - Oppo Find X3 PRO,  12GB RAM, 256GB ROM, 29,166.00" <<endl;
-	cout << "3 - Iphone 13 Pro Max, 8GB RAM, 1TB ROM, 42,415.00" <<endl;
-	cout << "4 - Samsung S22 ULTRA, 12GB RAM, TB ROM, 42,853.00" <<endl;
-	cout << "5 - Huawei Mate 40 Pro, 8GB RAM, 256GB ROM, 25,931.00" <<endl;
-	cout << "0 - Salir" <<endl;
-		
-	cout<<"Ingrese una opcion: " ;
+    cout << endl;
+	cout << "                                    1 - Samsung S21 ULTRA, 8GB RAM, 256GB ROM, 31,412.00" <<endl <<endl;
+	cout << "                                    2 - Oppo Find X3 PRO,  12GB RAM, 256GB ROM, 29,166.00" <<endl <<endl;
+	cout << "                                    3 - Iphone 13 Pro Max, 8GB RAM, 1TB ROM, 42,415.00" <<endl <<endl;
+	cout << "                                    4 - Samsung S22 ULTRA, 12GB RAM, TB ROM, 42,853.00" <<endl <<endl;
+	cout << "                                    5 - Huawei Mate 40 Pro, 8GB RAM, 256GB ROM, 25,931.00" <<endl <<endl;
+	cout << "                                    0 - Salir" <<endl;
+	cout <<endl;
+	cout << "                                            Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {
@@ -74,16 +81,17 @@ void tienda(int elegir){
 	
 	case 2: {
 	system("cls");	
-	cout << "DISPOSITIVOS ENTRE 15,000 Y 27,000 LEMPIRAS " <<endl;
+	cout << "                                         DISPOSITIVOS ENTRE 15,000 Y 27,000 LEMPIRAS " <<endl;
     cout << endl;
-	cout << "1 - One Plus 9 Pro, 12GB RAM, 256GB ROM, 24,953.00" <<endl;
-	cout << "2 - Goggle Pixel 6 PRO,  12GB RAM, 512GB ROM, 19,778.00" <<endl;
-	cout << "3 - Iphone 12, 4GB RAM, 128GB ROM, 17,068.00" <<endl;
-	cout << "4 - Goggle Pixel 5, 8GB RAM, 128 GB ROM, 18,289.00" <<endl;
-	cout << "5 - Realme 9i, 4GB RAM, 64GB ROM, 17,500.00" <<endl;
-	cout << "0 - Salir" <<endl;
-		
-	cout<<"Ingrese una opcion: " ;
+    cout << endl;
+	cout << "                                    1 - One Plus 9 Pro, 12GB RAM, 256GB ROM, 24,953.00" <<endl <<endl;
+	cout << "                                    2 - Goggle Pixel 6 PRO,  12GB RAM, 512GB ROM, 19,778.00" <<endl <<endl;
+	cout << "                                    3 - Iphone 12, 4GB RAM, 128GB ROM, 17,068.00" <<endl <<endl;
+	cout << "                                    4 - Goggle Pixel 5, 8GB RAM, 128 GB ROM, 18,289.00" <<endl <<endl;
+	cout << "                                    5 - Realme 9i, 4GB RAM, 64GB ROM, 17,500.00" <<endl <<endl;
+	cout << "                                    0 - Salir" <<endl;
+	cout <<endl;	
+	cout << "                                         Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {
@@ -126,16 +134,16 @@ void tienda(int elegir){
 	
 	case 3: {
 	system("cls");	
-	cout << "DISPOSITIVOS ENTRE 3,000 Y 14,000 LEMPIRAS " <<endl;
+	cout << "                                         DISPOSITIVOS ENTRE 3,000 Y 14,000 LEMPIRAS " <<endl <<endl;
     cout << endl;
-	cout << "1 - Realme GT 5G, 8GB RAM, 256GB ROM, 9,742.00" <<endl;
-	cout << "2 - Motorola Edge 30,  8GB RAM, 256GB ROM, 12,184.00" <<endl;
-	cout << "3 - Xiaomi Redmi Note 11, 4GB RAM, 64GB ROM, 4,859.00" <<endl;
-	cout << "4 - Poco F3 5G, 6GB RAM, 128 GB ROM, 8,277.00" <<endl;
-	cout << "5 - Xiaomi Mi 11, 8GB RAM, 128GB ROM, 11,207.00" <<endl;
-	cout << "0 - Salir" <<endl;
-		
-	cout<<"Ingrese una opcion: " ;
+	cout << "                                    1 - Realme GT 5G, 8GB RAM, 256GB ROM, 9,742.00" <<endl <<endl;
+	cout << "                                    2 - Motorola Edge 30,  8GB RAM, 256GB ROM, 12,184.00" <<endl <<endl;
+	cout << "                                    3 - Xiaomi Redmi Note 11, 4GB RAM, 64GB ROM, 4,859.00" <<endl <<endl;
+	cout << "                                    4 - Poco F3 5G, 6GB RAM, 128 GB ROM, 8,277.00" <<endl <<endl;
+	cout << "                                    5 - Xiaomi Mi 11, 8GB RAM, 128GB ROM, 11,207.00" <<endl<<endl;
+	cout << "                                    0 - Salir" <<endl;
+	cout <<endl; 
+	cout << "                                           Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {
@@ -186,28 +194,33 @@ void tienda(int elegir){
 	
 	case 2: {
 	
-	system("cls");	
-	cout <<"1 - Fundas para Celular" <<endl;
-	cout <<"2 - Auriculares" <<endl;
-	cout <<"3 - Cargadores" <<endl;
-		
-	cout << "Ingrese una opcion:";
+	system("cls");
+	cout<<"                                                -------------------------------------" <<endl;	
+	cout <<"                                                ACCESORIOS PARA DISPOSITIVOS MOBILES" <<endl;
+	cout<<"                                                -------------------------------------" <<endl;
+	cout <<endl;
+	cout <<"                                                     1 - Fundas para Celular" <<endl;
+	cout <<endl;
+	cout <<"                                                     2 - Auriculares" <<endl;
+	cout <<endl;
+	cout <<"                                                     3 - Cargadores" <<endl;
+	cout <<endl;
+	cout << "                                                      Ingrese una opcion: ";
 	cin >> opcionProducto1;
-	
+	cout <<endl;
 	switch(opcionProducto1)
 	{
 	case 1: {
 	system("cls");	
-	cout << "Fundas para Celular " <<endl;
+	cout << "                                                       Fundas para Celular "<<endl <<endl;
     cout << endl;
-	cout << "1 - Forro rigido transparente para iphone 11, 439.00" <<endl;
-	cout << "2 - Forro de ceramica para iphone 12, 683.00" <<endl;
-	cout << "3 - Forro transparente para huawei p40 lite, 952.00" <<endl;
-	cout << "4 - Forro para samsung a71 2019, 1,196.00" <<endl;
-	cout << "5 - Forro para iphone se 2020, 708" <<endl;
-	cout << "0 - Salir" <<endl;
-		
-	cout<<"Ingrese una opcion: " ;
+	cout << "                                        1 - Forro rigido transparente para iphone 11, 439.00" <<endl <<endl;
+	cout << "                                        2 - Forro de ceramica para iphone 12, 683.00" <<endl <<endl;
+	cout << "                                        3 - Forro transparente para huawei p40 lite, 952.00" <<endl <<endl;
+	cout << "                                        4 - Forro para samsung a71 2019, 1,196.00" <<endl <<endl;
+	cout << "                                        5 - Forro para iphone se 2020, 708" <<endl <<endl;
+	cout << "                                        0 - Salir" <<endl <<endl;
+	cout << "                                               Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {
@@ -248,17 +261,17 @@ void tienda(int elegir){
 	
 	case 2: {
 	system("cls");	
-	cout << "Auriculares" <<endl;
+	cout << "                                                       Auriculares" <<endl <<endl;
     cout << endl;
-	cout << "1 - Auriculares Sony MDR-EX110A con microfono, 488.00" <<endl;
-	cout << "2 - SAMSUNG Auriculares con cable sintonizado por AKG, 293.00" <<endl;
-	cout << "3 - Auriculares huawei freelace, 2417.00" <<endl;
-	cout << "4 - Auriculares Sony WFXB700B, 3,149.00" <<endl;
-	cout << "5 - Auriculares samsung buds 2 Pro, 2661.00" <<endl;
-	cout << "6 - Apple Airpods Pro 2021, 4,370.00" <<endl;
-	cout << "0 - Salir" <<endl;
+	cout << "                                 1 - Auriculares Sony MDR-EX110A con microfono, Por cable, 488.00" <<endl<<endl;
+	cout << "                                 2 - SAMSUNG Auriculares con cable sintonizado por AKG, Por cable, 293.00" <<endl<<endl;
+	cout << "                                 3 - Auriculares huawei freelace, Por cable, 2417.00" <<endl <<endl;
+	cout << "                                 4 - Auriculares Sony WFXB700B, Inalambricos, 3,149.00" <<endl <<endl;
+	cout << "                                 5 - Auriculares samsung buds 2 Pro, Inalambricos, 2661.00" <<endl <<endl;
+	cout << "                                 6 - Apple Airpods Pro 2021, Inalambricos, 4,370.00" <<endl <<endl;
+	cout << "                                 0 - Salir" <<endl <<endl;
 		
-	cout<<"Ingrese una opcion: " ;
+	cout << "                                       Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {
@@ -305,16 +318,16 @@ void tienda(int elegir){
 	
 	case 3: {
 	system("cls");	
-	cout << "Cargadores " <<endl;
+	cout << "                                                       Cargadores " <<endl<<endl;
     cout << endl;
-	cout << "1 - Cargador de 65v tipo C, 1,500.00" <<endl;
-	cout << "2 - Cargador de 55v tipo C, 1,300.00" <<endl;
-	cout << "3 - Cargador de 45v tipo C Samsung, 1,196.00" <<endl;
-	cout << "4 - Cargador de 33v tipo C, 800.00" <<endl;
-	cout << "5 - Cargador de 18v tipo lightning, 1,673.00" <<endl;
-	cout << "0 - Salir" <<endl;
+	cout << "                                        1 - Cargador Huawei de 65v tipo C, 1,500.00" <<endl<<endl;
+	cout << "                                        2 - Cargador Samsung de 55v tipo C, 1,300.00" <<endl<<endl;
+	cout << "                                        3 - Cargador Samsung de 45v tipo C, 1,196.00" <<endl<<endl;
+	cout << "                                        4 - Cargador LG de 33v tipo C, 800.00" <<endl<<endl;
+	cout << "                                        5 - Cargador Apple de 18v lightning, 1,673.00" <<endl<<endl;
+	cout << "                                        0 - Salir" <<endl<<endl;
 		
-	cout<<"Ingrese una opcion: " ;
+	cout << "                                          Ingrese un numero para escoger su producto: "; 
 	cin >> opcionProducto;
 		
 		switch (opcionProducto) {

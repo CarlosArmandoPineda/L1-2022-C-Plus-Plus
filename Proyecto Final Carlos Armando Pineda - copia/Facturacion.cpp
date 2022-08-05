@@ -13,7 +13,7 @@ string listado;
 
 void nuevoobjeto(string descripcion, int cantidad, double precio)
 {
-	cout << "Si desea agregar un producto pulse 1, de lo contrario si desea eliminarlo pulse 2: " <<endl;
+	cout << "Si desea agregar pulse 1, de lo contrario pulse 2 para eliminar su producto: " <<endl;
 	cin >> o;
 	
 	if (o == 1){
@@ -21,12 +21,11 @@ void nuevoobjeto(string descripcion, int cantidad, double precio)
 	subtotal= subtotal + (cantidad * precio);
 	total1 = subtotal + (subtotal * impuesto);
 	total2 = (subtotal  + (subtotal * impuesto)) + envio;
-	}else
+ }else
 	if (o == 2){
-		listado = listado + descripcion + '\n'; 
 	    subtotal= subtotal - (cantidad * precio);
 	    total1 = subtotal - (subtotal * impuesto);
-	    total2 = (subtotal  - (subtotal * impuesto));
+	    total2 = (subtotal  - (subtotal * impuesto)) - envio;
 		
 	}
 	
@@ -56,7 +55,7 @@ void imprimirFacturaEnvio() {
 	cout << "Eliga su metodo de facturacion." <<endl <<endl;
 	cout << "1 - Factura con envio: " <<endl;
 	cout << "2 - Factura sin envio: " <<endl;
-	cout << "3 - Productos hasta el momento: " <<endl;
+	cout << "3 - Restaurar lista de compras: " <<endl;
 	
 	cout << "Ingrese una opcion: " <<endl;
 	cin >> opcion;
@@ -183,7 +182,11 @@ void imprimirFacturaEnvio() {
 	if (opcion == 3)
 	{
 		system("cls");
-		cout << listado;
+		listado = "";
+		subtotal= subtotal - subtotal;
+		total1 = total1 - total1;
+		total2 = total2 - total2;
+		cout << "Ha eliminado sus compras" <<endl;
 		system("pause");
 	}
 

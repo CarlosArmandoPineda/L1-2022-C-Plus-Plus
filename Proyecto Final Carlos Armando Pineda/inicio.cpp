@@ -20,32 +20,40 @@ while (true){
 	system("cls");
 	
 	cout<< endl;
-	cout<<"                                        -----------------------" <<endl;
-	cout<<"                                        Bienvenido a Innovatech" <<endl;
-	cout<<"                                        -----------------------" <<endl;
+	cout<<"                                          -----------------------" <<endl;
+	cout<<"                                          Bienvenido a Innovatech" <<endl;
+	cout<<"                                          -----------------------" <<endl;
 	cout<<endl;
 	cout<<endl;
 	cout<<endl;
+	cout <<"Estamos ubicados en Centro Comercial Prisa, Segundo Piso, local #20, BLV. Morazan NO.41, San Pedro Sula, Cortes." <<endl;
+	cout <<"                                        Puede contactarnos al 9050-7089.";
+	cout <<endl;
+	cout<<endl;
 	
-	
-	
-	cout<<"1 - Dispositivos Mobiles "<<endl;
-	cout<<"2 - Accesorios"<<endl;
-	cout<<"3 - Listado"<<endl;
-	cout<<"4 - Imprimir factura "<<endl;
-	cout<<"0 - Salir"<<endl;
+	cout <<"                                        ************************" <<endl <<endl;
+	cout<<"                                         1 - Dispositivos Mobiles "<<endl;
+	cout << endl;
+	cout<<"                                         2 - Accesorios"<<endl;
+	cout << endl;
+	cout<<"                                         3 - Imprimir factura "<<endl;
+	cout << endl;
+	cout<<"                                         0 - Salir o Retroceder"<<endl;
 	
 	
 	cout<<endl;
-	cout<<"Seleccione una opcion: ";
+	cout<<"             Seleccione una opcion: ";
 	cin>> elegir;
+	cout << endl;
+	cout <<endl;
+	cout << "                                           Gracias por visitarnos.";
 	
 	if (elegir == 0){
 		
     break;		
 	}
 	
-	if (elegir == 4){
+	if (elegir == 3){
 		imprimirFacturaEnvio();
 			
 	} else {

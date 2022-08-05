@@ -8,6 +8,7 @@ extern void imprimirFacturaEnvio();
 
 
 
+
 void inicio()
 
 {
@@ -31,8 +32,7 @@ while (true){
 	
 	cout<<"1 - Dispositivos Mobiles "<<endl;
 	cout<<"2 - Accesorios"<<endl;
-	cout<<"3 - Listado"<<endl;
-	cout<<"4 - Imprimir factura "<<endl;
+	cout<<"3 - Imprimir factura "<<endl;
 	cout<<"0 - Salir"<<endl;
 	
 	
@@ -45,13 +45,15 @@ while (true){
     break;		
 	}
 	
-	if (elegir == 4){
+	if (elegir == 3){
 		imprimirFacturaEnvio();
 			
 	} else {
 		
 		tienda(elegir);
 	}
+	
+	
 	
 
 	

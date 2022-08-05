@@ -12,7 +12,7 @@ string listado;
 
 void nuevoobjeto(string descripcion, int cantidad, double precio)
 {
-	listado = listado + descripcion + '\n';
+	listado = listado + descripcion + '\n' + '\n';
 	subtotal=subtotal + (cantidad * precio);
 	total1 = subtotal + (subtotal * impuesto);
 	total2 = (subtotal  + (subtotal * impuesto)) + envio;
@@ -40,11 +40,20 @@ void imprimirFacturaEnvio() {
 	int opcion = 0;
 	
 	system("cls");
-	cout << "Eliga su metodo de facturacion." <<endl <<endl;
-	cout << "1 - Factura con envio: " <<endl;
-	cout << "2 - Factura sin envio: " <<endl;
+	cout <<"                                                 ----------------------"<<endl;
+	cout << "                                                 Seleccione una opcion: " <<endl;
+	cout <<"                                                 ----------------------"<<endl;
+	cout <<endl;
+	cout << "                                                 1 - Factura con envio. " <<endl;
+	cout <<endl;
+	cout << "                                                 2 - Factura sin envio. " <<endl;
+	cout <<endl;
+	cout << "                                                 3 - Productos adquiridos hasta el momento. " <<endl;
+	cout<<endl;
+	cout << "                                                 4 - Restaurar compras: " <<endl;
 	
-	cout << "Ingrese una opcion: " <<endl;
+	cout <<endl;
+	cout << "                                                    Ingrese una opcion: ";
 	cin >> opcion;
 	
 	if(opcion == 1)
@@ -93,26 +102,37 @@ void imprimirFacturaEnvio() {
 	
     system("cls");
 	cout<<endl;
-	cout<<"FACTURACION CON SERVICIO DE ENVIO INCLUIDO"<<endl;
+    cout<<"                  FACTURA  "<<endl;
+	cout<<endl;	
 	cout<<endl;
-	cout<<endl;
+	cout<<"             Hola " <<NombreyApellido(nombre, apellido)<<endl;
 	cout <<endl;
-	cout <<"Cliente:" << NombreyApellido( nombre, apellido) <<endl;
-	cout <<"Correo del Cliente:" << correo <<endl;
-	cout <<"Numero de Telefono del Cliente:" << numero <<endl;
-	cout <<"Numero de identidad del Cliente:" << nidentidad <<endl;
-	cout <<"Hora de Entrega:" << hora <<endl;
-	cout <<"Fecha de Entrega:" << fecha <<endl;
-	cout <<"La direccion de entrega es: " << ciudad << ", " << colonia << ", " << numerodecasa;
+	cout<<"     ¡Gracias por tu compra a Innovatech!  "<<endl;
+	cout <<endl;
+	cout <<"             Datos del Cliente:" <<endl;
+	cout <<endl;
+	cout <<" Facturado a:" << NombreyApellido( nombre, apellido) <<endl;
+	cout <<" Correo:" << correo <<endl;
+	cout <<" Numero de Telefono:" << numero <<endl;
+	cout <<" Numero de identidad:" << nidentidad <<endl;
+	cout <<" Hora de Entrega:" << hora <<endl;
+	cout <<" Fecha de Entrega:" << fecha <<endl;
+	cout <<" La direccion de entrega es: " << ciudad << ", " << colonia << ", " << numerodecasa;
 	
 	cout <<endl;
 	cout <<endl;
+	cout << "          Descripcion del Producto:" <<endl;
+	cout <<endl;
 	cout<<listado;
 	cout<<endl;
-	cout<<"SUBTOTAL (SIN ISV Y ENVIO): LPS " << subtotal;
+	cout<<" SUBTOTAL (SIN ISV Y ENVIO): LPS. " << subtotal;
 	cout<<endl;
-	cout<<"TOTAL (ISV + ENVIO): LPS " <<total2;
+	cout<<" TOTAL (ISV + ENVIO): LPS. " <<total2;
 	cout<<endl;
+	cout<<endl;
+	cout <<" Estamos ubicados en Centro Comercial Prisa, Segundo Piso," <<endl;
+	cout <<"      Segundo Piso, local #20, BLV. Morazan NO.41," <<endl;
+	cout <<"              San Pedro Sula, Cortes." <<endl;
 	system("pause");
     }else 
     if(opcion == 2)
@@ -145,26 +165,61 @@ void imprimirFacturaEnvio() {
 	
     system("cls");
 	cout<<endl;
-	cout<<"FACTURACION SIN SERVICIO DE ENVIO INCLUIDO"<<endl;
+	cout<<"                  FACTURA  "<<endl;
+	cout<<endl;	
 	cout<<endl;
-	cout<<endl;
+	cout<<"             Hola " <<NombreyApellido(nombre, apellido)<<endl;
 	cout <<endl;
-	cout <<"Cliente:" << NombreyApellido( nombre, apellido) <<endl;
-	cout <<"Numero de Telefono del Cliente:" << numero <<endl;
-	cout <<"Numero de identidad del Cliente:" << nidentidad <<endl;
-	cout <<"Hora establecida para reclamo de producto:" << hora <<endl;
-	cout <<"Fecha establecida para reclamo de producto:" << fecha <<endl;
+	cout<<"     ¡Gracias por tu compra a Innovatech!  "<<endl;
+	cout <<endl;
+	cout <<"             Datos del Cliente:" <<endl;
+	cout <<endl;
+	cout << " Facturado a:" << NombreyApellido( nombre, apellido) <<endl;
+	cout << " Numero de Telefono:" << numero <<endl;
+	cout << " Numero de identidad:" << nidentidad <<endl;
+	cout << " Hora establecida para reclamo de producto:" << hora <<endl;
+	cout << " Fecha establecida para reclamo de producto:" << fecha <<endl;
 	
 	cout <<endl;
 	cout <<endl;
+	cout << "          Descripcion del Producto:" <<endl;
+	cout <<endl;
 	cout<<listado;
 	cout<<endl;
-	cout<<"SUBTOTAL (SIN ISV): LPS. " << subtotal;
+	cout<< " SUBTOTAL (SIN ISV): LPS. " << subtotal;
 	cout<<endl;
-	cout<<"TOTAL (CON ISV): LPS. " <<total1;
+	cout<< " TOTAL (CON ISV): LPS. " <<total1;
 	cout<<endl;
+	cout<<endl;
+	cout <<" Estamos ubicados en Centro Comercial Prisa, Segundo Piso," <<endl;
+	cout <<"      Segundo Piso, local #20, BLV. Morazan NO.41," <<endl;
+	cout <<"              San Pedro Sula, Cortes." <<endl;
 	system("pause");
     	
+	}else
+	if(opcion == 3)
+	{
+		system("cls");
+		cout <<endl;
+		cout <<endl;
+		cout << "                                            Productos adquiridos hasta el momento: " <<endl <<endl; 
+		cout << listado <<endl;
+		system("pause");
+	}else
+	if(opcion == 4 )
+	{
+		system("cls");
+		cout <<endl;
+		cout <<endl;
+		cout <<endl;
+		cout <<endl;
+		cout <<endl;
+		cout << "                                                   Ha reiniciado sus compras." <<endl <<endl;
+		listado = "";
+		subtotal = subtotal - subtotal;
+		total1 = total1 - total1;
+		total2 = total2 - total2;
+		system("pause");
 	}
 		
 }
